@@ -3,5 +3,5 @@
 
 This is my personal website presenting some information about:
 + myself 
-+ links to other websites that i found interesting
++ links to other websites that I found interesting
 + projects that I am currently working on
