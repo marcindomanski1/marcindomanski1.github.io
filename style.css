@@ -17,8 +17,10 @@ img {
     margin: 5px;
 }
 
-header > div {
+.header {
     height: 150px;
+    margin:0 auto;
+    display: block;
 }
 
 aside {
@@ -26,19 +28,21 @@ aside {
     width: 25%;
     height: auto;
     display: inline;
+    padding-left: 0px;
 }
 
-ul li {
+.sidebar {
     list-style: none;
 }
 
-div {
+.main {
     width: 1000px;
     height: auto;
+    margin: 0 auto;
 }
 
 footer {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     left: 50%;
 }
