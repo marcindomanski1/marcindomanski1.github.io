@@ -1,7 +1,9 @@
-main    {
-    width: 1000px;
-    alignment: center;
-    }
+main {
+    margin: 0 auto;
+    width: 74%;
+    padding-left: 0px;
+    float: left;
+}
 
 body {
     background-color: lavenderblush;
@@ -15,6 +17,25 @@ img {
     margin: 5px;
 }
 
-div {
+header > div {
     height: 150px;
+}
+
+aside {
+    margin: 0 auto;
+    width: 25%;
+    height: auto;
+    display: inline;
+}
+
+ul li {
+    list-style: none;
+}
+
+div {
+    width: 1000px;
+    height: auto;
+}
+
+footer ;
 }
