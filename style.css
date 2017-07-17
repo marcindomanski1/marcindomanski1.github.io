@@ -1,0 +1,13 @@
+main    {
+    width: 1000px;
+    alignment: center;
+    }
+
+body {
+    background-color: lavenderblush;
+}
+
+img {
+    border-image-width: 100px;
+    height: 100px;
+}
