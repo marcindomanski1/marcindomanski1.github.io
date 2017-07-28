@@ -13,8 +13,8 @@
         <h2>Junior Frontend developer</h2>
     </div>
 </header>
-<div class="main">
-    <main>
+<main>
+    <div class="main">
         <article>
             <h3 class="main__heading3">About me</h3>
             <p>My name is Marcin Domański. I live in Lublin, Poland.</p>
@@ -31,20 +31,37 @@
                 <li>SCRUM</li>
             </ul>
         </article>
-    </main>
-    <aside>
+        <h3 class="main__heading3">Contact Form:</h3>
+        <div class="main__form"
+        <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+            <input type="hidden" name="reply-to" value="marcin@domanski.eu">
+            <label><span>Your name:</span></label>
+            <label><span><input type="text" name="name"></span></label>
+            <label><span>Your e-mail:</span></label>
+            <label><span><input type="text" name="email"></span></label>
+            <label><span>Message:</span></label>
+            <label><span><textarea class="form__textarea" name="message"></textarea></span></label>
+            <label><span><input type="submit" value="Send"></span></label>
+        </form>
+    </div>
+</main>
+<aside>
+    <div class="aside">
         <article>
-        <h3>My projects:</h3>
+            <h3>My projects:</h3>
             <ul class="aside__sidebar">
-                <li class="aside__sidebar"><a href="https://github.com/marcindomanski1/marcindomanski1.github.io">My Github Repository</a></li>
-                <li class="aside__sidebar"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Team 'Red Coders' Github
+                <li class="aside__sidebar"><a href="https://github.com/marcindomanski1/marcindomanski1.github.io">My
+                    Github Repository</a></li>
+                <li class="aside__sidebar"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Team 'Red
+                    Coders' Github
                     Repository</a></li>
             </ul>
         </article>
-    </aside>
-</div>
-    <footer>
-        <small>Created by Marcin Domański 2017</small>
-    </footer>
+    </div>
+</aside>
+
+<footer>
+    <small>Created by Marcin Domański 2017</small>
+</footer>
 </body>
 </html>

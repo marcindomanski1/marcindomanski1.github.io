@@ -19,7 +19,7 @@ img {
 
 .header {
     height: 150px;
-    margin:0 auto;
+    margin: 0 auto;
     display: block;
     width: 1000px;
 }
@@ -28,7 +28,7 @@ img {
     font-weight: bold;
 }
 
-aside {
+.aside {
     margin: 0 auto;
     width: 25%;
     height: auto;
@@ -50,8 +50,36 @@ aside {
     font-weight: bold;
 }
 
+.main__form {
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+}
+
+.main__form label {
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+
+.main__form label > span {
+    width: 500pt;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+.main__form input[type=submit], .main__form input[type=button] {
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background-color: rosybrown;
+}
+
+.form__textarea {
+    height: 100px;
+    width: 55%;
+}
+
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 50%;
 }
