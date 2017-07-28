@@ -24,6 +24,10 @@ img {
     width: 1000px;
 }
 
+.header__heading1 {
+    font-weight: bold;
+}
+
 aside {
     margin: 0 auto;
     width: 25%;
@@ -32,7 +36,7 @@ aside {
     padding-left: 0px;
 }
 
-.sidebar {
+.aside__sidebar {
     list-style: none;
 }
 
@@ -40,6 +44,10 @@ aside {
     width: 1000px;
     height: auto;
     margin: 0 auto;
+}
+
+.main__heading3 {
+    font-weight: bold;
 }
 
 footer {
