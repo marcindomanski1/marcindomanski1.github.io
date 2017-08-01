@@ -17,11 +17,15 @@ img {
     margin: 5px;
 }
 
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
 .header {
-    height: 150px;
+    height: 160px;
     margin: 0 auto;
     display: block;
-    width: 1000px;
 }
 
 .header__heading1 {
@@ -29,21 +33,22 @@ img {
 }
 
 .aside {
-    margin: 0 auto;
+    margin: auto;
     width: 25%;
     height: auto;
-    display: inline;
-    padding-left: 0px;
+    display: inline-block;
+
 }
 
 .aside__sidebar {
     list-style: none;
+    padding-left: 0px;
 }
 
 .main {
-    width: 1000px;
     height: auto;
     margin: 0 auto;
+    display: inline-block;
 }
 
 .main__heading3 {
@@ -52,7 +57,6 @@ img {
 
 .main__form {
     max-width: 500px;
-    padding: 20px 12px 10px 20px;
 }
 
 .main__form label {

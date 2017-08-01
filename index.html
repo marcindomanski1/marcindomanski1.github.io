@@ -6,63 +6,64 @@
     <title>Marcin Domański - personal website</title>
 </head>
 <body>
-<header>
-    <div class="header">
-        <img src="./images/photo_md.jpg" alt="Photo"/>
-        <h1 class="header__heading1">Marcin Domański</h1>
-        <h2>Junior Frontend developer</h2>
-    </div>
-</header>
-<main>
-    <div class="main">
-        <article>
-            <h3 class="main__heading3">About me</h3>
-            <p>My name is Marcin Domański. I live in Lublin, Poland.</p>
-            <h3 class="main__heading3">Skills &amp; experience:</h3>
-            <ul>
-                <li>HTML5/CSS3</li>
-                <li>JavaScript</li>
-                <li>React JS</li>
-                <li>Bootstrap</li>
-                <li>AJAX</li>
-                <li>Node.js</li>
-                <li>REST</li>
-                <li>GIT</li>
-                <li>SCRUM</li>
-            </ul>
-        </article>
-        <h3 class="main__heading3">Contact Form:</h3>
-        <div class="main__form">
-        <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
-            <input type="hidden" name="reply-to" value="marcin@domanski.eu">
-            <label><span>Your name:</span></label>
-            <label><span><input type="text" name="name"></span></label>
-            <label><span>Your e-mail:</span></label>
-            <label><span><input type="text" name="email"></span></label>
-            <label><span>Message:</span></label>
-            <label><span><textarea class="form__textarea" name="message"></textarea></span></label>
-            <label><span><input type="submit" value="Send"></span></label>
-        </form>
+<div id="container">
+    <header>
+        <div class="header">
+            <img src="./images/photo_md.jpg" alt="Photo"/>
+            <h1 class="header__heading1">Marcin Domański</h1>
+            <h2>Junior Frontend developer</h2>
         </div>
-    </div>
-</main>
-<aside>
-    <div class="aside">
-        <article>
-            <h3>My projects:</h3>
-            <ul class="aside__sidebar">
-                <li class="aside__sidebar"><a href="https://github.com/marcindomanski1/marcindomanski1.github.io">My
-                    Github Repository</a></li>
-                <li class="aside__sidebar"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Team 'Red
-                    Coders' Github
-                    Repository</a></li>
-            </ul>
-        </article>
-    </div>
-</aside>
-
-<footer>
-    <small>Created by Marcin Domański 2017</small>
-</footer>
+    </header>
+    <main>
+        <div class="main">
+            <article>
+                <h3 class="main__heading3">About me</h3>
+                <p>My name is Marcin Domański. I live in Lublin, Poland.</p>
+                <h3 class="main__heading3">Skills &amp; experience:</h3>
+                <ul>
+                    <li>HTML5/CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React JS</li>
+                    <li>Bootstrap</li>
+                    <li>AJAX</li>
+                    <li>Node.js</li>
+                    <li>REST</li>
+                    <li>GIT</li>
+                    <li>SCRUM</li>
+                </ul>
+            </article>
+            <h3 class="main__heading3">Contact Form:</h3>
+            <article class="main__form">
+                <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                    <input type="hidden" name="reply-to" value="marcin@domanski.eu">
+                    <label><span>Your name:</span></label>
+                    <label><span><input type="text" name="name"></span></label>
+                    <label><span>Your e-mail:</span></label>
+                    <label><span><input type="text" name="email"></span></label>
+                    <label><span>Message:</span></label>
+                    <label><span><textarea class="form__textarea" name="message"></textarea></span></label>
+                    <label><span><input type="submit" value="Send"></span></label>
+                </form>
+            </article>
+        </div>
+    </main>
+    <aside>
+        <div class="aside">
+            <article>
+                <h3>My projects:</h3>
+                <ul class="aside__sidebar">
+                    <li class="aside__sidebar"><a href="https://github.com/marcindomanski1/marcindomanski1.github.io">My
+                        Github Repository</a></li>
+                    <li class="aside__sidebar"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Team 'Red
+                        Coders' Github
+                        Repository</a></li>
+                </ul>
+            </article>
+        </div>
+    </aside>
+    <footer>
+        <small>Created by Marcin Domański 2017</small>
+    </footer>
+</div>
 </body>
 </html>
