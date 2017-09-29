@@ -1,8 +1,8 @@
 main {
-    margin: 0 auto;
-    width: 74%;
+    max-width: 100%;
     padding-left: 0px;
-    float: left;
+    display: block;
+
 }
 
 body {
@@ -11,21 +11,26 @@ body {
 }
 
 img {
-    border-image-width: 150px;
-    height: 150px;
-    float: left;
-    margin: 10px;
+    max-width: 100%;
+    height:auto;
+}
+
+#md-photo {
+    max-height: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #container {
-    width: 1000px;
     margin: auto;
 }
 
 .header {
-    height: 170px;
-    margin: 0 auto;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 .header__heading1 {
@@ -34,7 +39,6 @@ img {
 
 .aside {
     margin: auto;
-    width: 25%;
     height: auto;
     display: inline-block;
 
@@ -48,7 +52,6 @@ img {
 .main {
     height: auto;
     margin: 0 auto;
-    display: inline-block;
 }
 
 .main__heading3 {
@@ -56,7 +59,7 @@ img {
 }
 
 .main__form {
-    max-width: 500px;
+    max-width: 50%;
 }
 
 .main__form label {
@@ -83,7 +86,13 @@ img {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
+    text-align: center;
+
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }

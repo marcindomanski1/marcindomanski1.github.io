@@ -2,24 +2,30 @@
 <html lang="en">
 <head>
     <link type="text/css" rel="stylesheet" href="./css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/style_responsive.css"/>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcin Domański - personal website</title>
 </head>
 <body>
-<div id="container">
-    <header>
-        <div class="header">
-            <img src="./images/photo_md.jpg" alt="Photo"/>
-            <h1 class="header__heading1">Marcin Domański</h1>
+<header>
+    <div class="row header">
+        <div class="col-m-6 col-4 col-xl-3">
+            <img id="md-photo" src="./images/photo_md.jpg" alt="Photo">
+        </div>
+        <div class="col-m-6 col-8 col-xl-9 header__heading1">
+            <h1>Marcin Domański</h1>
             <h2>Junior Frontend developer</h2>
         </div>
-    </header>
-    <main>
-        <div class="main">
+    </div>
+</header>
+<main>
+    <div class="row main">
+        <div class="col-m-6 col-7 col-xl-8">
             <article>
-                <h3 class="main__heading3">About me</h3>
+                <h3>About me</h3>
                 <p>My name is Marcin Domański. I live in Lublin, Poland.</p>
-                <h3 class="main__heading3">Skills &amp; experience:</h3>
+                <h3>Skills &amp; experience:</h3>
                 <ul>
                     <li>HTML5/CSS3</li>
                     <li>JavaScript</li>
@@ -32,38 +38,45 @@
                     <li>SCRUM</li>
                 </ul>
             </article>
-            <h3 class="main__heading3">Contact Form:</h3>
-            <article class="main__form">
-                <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
-                    <input type="hidden" name="reply-to" value="marcin@domanski.eu">
-                    <label><span>Your name:</span></label>
-                    <label><span><input type="text" name="name"></span></label>
-                    <label><span>Your e-mail:</span></label>
-                    <label><span><input type="text" name="email"></span></label>
-                    <label><span>Message:</span></label>
-                    <label><span><textarea class="form__textarea" name="message"></textarea></span></label>
-                    <label><span><input type="submit" value="Send"></span></label>
-                </form>
-            </article>
         </div>
-    </main>
-    <aside>
-        <div class="aside">
-            <article>
-                <h3>My projects:</h3>
-                <ul class="aside__sidebar">
-                    <li class="aside__sidebar"><a href="https://github.com/marcindomanski1/marcindomanski1.github.io">My
-                        Github Repository</a></li>
-                    <li class="aside__sidebar"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Team 'Red
-                        Coders' Github
-                        Repository</a></li>
-                </ul>
-            </article>
+        <aside>
+            <div class="col-m-6 col-5 col-xl-4">
+                <article>
+                    <h3>My projects:</h3>
+                    <ul class="aside__sidebar">
+                        <li><a href="https://github.com/marcindomanski1/marcindomanski1.github.io">My
+                            Github Repository</a></li>
+                        <li><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Team 'Red Coders' Github
+                            Repository</a></li>
+                    </ul>
+                </article>
+            </div>
+        </aside>
+        <div class="row">
+            <div class="col-m-12 col-12 col-xl-12">
+                <h3 class="main__heading3">Contact Form:</h3>
+                <article class="main__form">
+                    <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                        <input type="hidden" name="reply-to" value="marcin@domanski.eu">
+                        <label><span>Your name:</span></label>
+                        <label><span><input type="text" name="name"></span></label>
+                        <label><span>Your e-mail:</span></label>
+                        <label><span><input type="text" name="email"></span></label>
+                        <label><span>Message:</span></label>
+                        <label><span><textarea class="form__textarea" name="message"></textarea></span></label>
+                        <label><span><input type="submit" value="Send"></span></label>
+                    </form>
+                </article>
+            </div>
         </div>
-    </aside>
-    <footer>
-        <small>Created by Marcin Domański 2017</small>
-    </footer>
-</div>
+    </div>
+</main>
+<footer>
+    <div class="row footer">
+        <div class="col-m-12 col-12 col-xl-12 footer">
+            <small>Created by Marcin Domański 2017</small>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
